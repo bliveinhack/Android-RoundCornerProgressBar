@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         progressOne.setProgressBackgroundColor(getResources().getColor(R.color.custom_progress_background));
         updateSecondaryProgressOne();
 
+
+
+
         tvProgressOne = (TextView) findViewById(R.id.tv_progress_one);
         updateTextProgressOne();
 

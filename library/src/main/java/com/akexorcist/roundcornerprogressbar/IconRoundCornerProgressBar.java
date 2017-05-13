@@ -44,6 +44,14 @@ public class IconRoundCornerProgressBar extends BaseRoundCornerProgressBar imple
     protected final static int DEFAULT_ICON_PADDING_TOP = 0;
     protected final static int DEFAULT_ICON_PADDING_BOTTOM = 0;
 
+    public ImageView getIvProgressIcon() {
+        return ivProgressIcon;
+    }
+
+    public void setIvProgressIcon(ImageView ivProgressIcon) {
+        this.ivProgressIcon = ivProgressIcon;
+    }
+
     private ImageView ivProgressIcon;
     private int iconResource;
     private int iconSize;
